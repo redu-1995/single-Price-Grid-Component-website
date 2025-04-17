@@ -1,0 +1,35 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:bisque ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    max-width: 800px;
+    width: 100%;
+    background-color: azure;
+    padding : 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header{
+  grid-column: span 2;
+  background-color: blue;
+  color: azure;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+.left-column , .right-column{
+  background-color: rgb(40, 40, 207);
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
