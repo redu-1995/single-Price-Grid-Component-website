@@ -1,8 +1,8 @@
-# Single Price Grid Component
+Single Price Grid Component
 
 A clean, responsive pricing card component built using HTML and CSS. This project was created to practice layout and styling skills by replicating a professional UI design.
 
-## 📸 Preview
+ Preview
 
 ![Screenshot of the component](screenshot.png)
 
